@@ -2,11 +2,10 @@
 
 Update Asset Indexes
 
-![Screenshot](resources/img/plugin-logo.png)
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.x
 
 ## Installation
 
@@ -24,19 +23,15 @@ To install the plugin, follow these instructions.
 
 ## Update Indexes Overview
 
--Insert text here-
 
 ## Configuring Update Indexes
 
--Insert text here-
 
 ## Using Update Indexes
 
--Insert text here-
 
 ## Update Indexes Roadmap
 
-Some things to do, and ideas for potential features:
 
 * Release it
 
