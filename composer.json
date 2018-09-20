@@ -2,7 +2,7 @@
     "name": "smsg/update-indexes",
     "description": "Update Asset Indexes",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "dev-master",
     "keywords": [
         "craft",
         "cms",
