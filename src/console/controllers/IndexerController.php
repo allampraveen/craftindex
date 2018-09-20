@@ -35,11 +35,12 @@ class IndexerController extends Controller
      */
     public function actionIndex()
     {
-        $result = 'something';
 
-        echo "Welcome to the console IndexerController actionIndex() method\n";
+       Craft::$app->getDb()->createCommand()->delete('{{%assetindexdata}}')->execute();
+       Craft::$app->getDb()->createCommand()->delete('{{%assettransformindex}}')->execute();
+       print "Indexes Updated";
+            
 
-        return $result;
     }
 
     /**
