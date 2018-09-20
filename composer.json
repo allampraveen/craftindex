@@ -21,9 +21,7 @@
             "homepage": "smsglobal.com"
         }
     ],
-    "require": {
-        "craftcms/cms": "3.*"
-    },
+  
     "autoload": {
         "psr-4": {
           "smsg\\updateindexes\\": "src/"
