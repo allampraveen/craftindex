@@ -1,0 +1,40 @@
+{
+    "name": "smsg/update-indexes",
+    "description": "Update Asset Indexes",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "update indexes"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/allampraveen/craftindex/update-indexes/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/allampraveen/craftindex/update-indexes/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Praveen",
+            "homepage": "smsglobal.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "smsg\\updateindexes\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Update Indexes",
+        "handle": "update-indexes",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/allampraveen/craftindex/update-indexes/master/CHANGELOG.md",
+        "class": "smsg\\updateindexes\\UpdateIndexes"
+    }
+}
