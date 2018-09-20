@@ -11,8 +11,8 @@
         "update indexes"
     ],
     "support": {
-        "docs": "https://github.com/https://github.com/allampraveen/craftindex/update-indexes/blob/master/README.md",
-        "issues": "https://github.com/https://github.com/allampraveen/craftindex/update-indexes/issues"
+        "docs": "https://github.com/allampraveen/craftindex/blob/master/README.md",
+        "issues": "https://github.com/allampraveen/craftindex/issues"
     },
     "license": "MIT",
     "authors": [
@@ -21,7 +21,7 @@
             "homepage": "smsglobal.com"
         }
     ],
-    "require": {
+  "require": {
         "craftcms/cms": "^3.0.0-RC1"
     },
     "autoload": {
@@ -34,7 +34,7 @@
         "handle": "update-indexes",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/allampraveen/craftindex/update-indexes/master/CHANGELOG.md",
+        "changelogUrl": "https://github.com/allampraveen/craftindex/master/CHANGELOG.md",
         "class": "smsg\\updateindexes\\UpdateIndexes"
     }
 }
